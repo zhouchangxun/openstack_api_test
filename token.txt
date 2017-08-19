@@ -1,0 +1,135 @@
+{
+    "access": {
+        "metadata": {
+            "is_admin": 0,
+            "roles": [
+                "039c1414ffa943f48619572d3c0fb83c"
+            ]
+        },
+        "serviceCatalog": [
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://10.157.0.216:8774/v2.1",
+                        "id": "26cc1551d34e4c9092ad889b9b1581e8",
+                        "internalURL": "http://10.157.0.216:8774/v2.1",
+                        "publicURL": "http://10.157.0.216:8774/v2.1",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "nova",
+                "type": "compute"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://10.157.0.216:9696/",
+                        "id": "74f8e53085bf47b9b3180102a0abbe20",
+                        "internalURL": "http://10.157.0.216:9696/",
+                        "publicURL": "http://10.157.0.216:9696/",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "neutron",
+                "type": "network"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://10.157.0.216:9292",
+                        "id": "39a13b0b82a54f75be924fc3f1f5ad55",
+                        "internalURL": "http://10.157.0.216:9292",
+                        "publicURL": "http://10.157.0.216:9292",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "glance",
+                "type": "image"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://10.157.5.100:9311",
+                        "id": "09a7f50df7df47ecbd0b48a47130bf62",
+                        "internalURL": "http://10.157.5.100:9311",
+                        "publicURL": "http://10.157.5.100:9311",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "barbican",
+                "type": "key-manager"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://10.157.0.216:8774/v2/4e8ba3b61b5340dcb10c5c12fafabeb3",
+                        "id": "ad5e842d746b4f05b63cc95abc3495cd",
+                        "internalURL": "http://10.157.0.216:8774/v2/4e8ba3b61b5340dcb10c5c12fafabeb3",
+                        "publicURL": "http://10.157.0.216:8774/v2/4e8ba3b61b5340dcb10c5c12fafabeb3",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "nova_legacy",
+                "type": "compute_legacy"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://10.157.0.216:9876/",
+                        "id": "294cb38a33de480091aa45ddd3ab8c5e",
+                        "internalURL": "http://10.157.0.216:9876/",
+                        "publicURL": "http://10.157.0.216:9876/",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "octavia",
+                "type": "octavia"
+            },
+            {
+                "endpoints": [
+                    {
+                        "adminURL": "http://10.157.5.4/identity_v2_admin",
+                        "id": "37c480b85af648fa8eef97f6b6466530",
+                        "internalURL": "http://10.157.0.216/identity",
+                        "publicURL": "http://10.157.0.216/identity",
+                        "region": "RegionOne"
+                    }
+                ],
+                "endpoints_links": [],
+                "name": "keystone",
+                "type": "identity"
+            }
+        ],
+        "token": {
+            "audit_ids": [
+                "u2_BxyUjTTqKcLomWZjj8w"
+            ],
+            "expires": "2017-08-19T03:17:13Z",
+            "id": "a6f21563c1a643a4a7ba3d96a82c93d3",
+            "issued_at": "2017-08-19T02:17:13.000000Z",
+            "tenant": {
+                "description": "",
+                "enabled": true,
+                "id": "4e8ba3b61b5340dcb10c5c12fafabeb3",
+                "name": "demo"
+            }
+        },
+        "user": {
+            "id": "20ac9a4b6bb04157a30178967a16a1d2",
+            "name": "admin",
+            "roles": [
+                {
+                    "name": "admin"
+                }
+            ],
+            "roles_links": [],
+            "username": "admin"
+        }
+    }
+}

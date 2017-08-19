@@ -1,0 +1,4 @@
+export TOKEN=a6f21563c1a643a4a7ba3d96a82c93d3
+export OS_COMPUTE_URL=http://10.157.0.216:8774/v2.1
+export OS_NETWORK_URL=http://10.157.0.216:9696/
+export OS_BARBICAN_URL=http://10.157.5.100:9311
